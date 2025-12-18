@@ -22,8 +22,8 @@ func main() {
 	db.InitDB()
 	go webhook.StartWebhookServer()
 
-	agent := "+917302588760"
-	lead := "+917302652380"
+	agent := "+91*********"
+	lead := "+91**********"
 	exophone := os.Getenv("EXOPHONE_NUMBER")
 	webhookURL := "https://YOUR_NGROK_URL/webhook"
 
